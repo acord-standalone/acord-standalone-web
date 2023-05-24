@@ -5,6 +5,15 @@
 
 <svelte:head>
   <title>Acord Standalone</title>
+  <meta property="og:title" content="Acord Standalone" />
+  <meta
+    property="og:description"
+    content="Discord'un özensiz işlerini düzeltin ve hayatınıza yeni bir soluk getirin."
+  />
+  <meta property="og:url" content="https://acord.app/" />
+  <meta property="og:image" content="https://acord.app/favicon.png" />
+  <!-- theme color -->
+  <meta name="theme-color" content="#5e01f9" />
 </svelte:head>
 
 <div class="page">
