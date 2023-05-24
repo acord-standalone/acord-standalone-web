@@ -101,7 +101,8 @@
     <div class="info">
       <div class="title">Acord</div>
       <div class="description">
-        Fix Discord’s sloppy jobs and breathe new life to the client.
+        Discord'un özensiz işlerini düzeltin ve hayatınıza yeni bir soluk
+        getirin.
       </div>
     </div>
   </div>
