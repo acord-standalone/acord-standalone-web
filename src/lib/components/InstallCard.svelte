@@ -111,8 +111,8 @@
       href={url || "#"}
       class:unsupported={!url}
       title={url
-        ? "Download"
-        : "Your platform currently not supported on Acord."}
+        ? "İndir"
+        : "Olduğunuz platform Acord tarafından desteklenmiyor."}
     >
       <svg viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
         <mask

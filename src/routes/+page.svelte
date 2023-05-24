@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <title>Acord</title>
+  <title>Acord Standalone</title>
 </svelte:head>
 
 <div class="page">
@@ -16,7 +16,7 @@
       <img class="preview" src="/img/preview.png" alt="Acord's Store" />
     </section>
     <section class="second-section">
-      <IconTextCard text="High Performance">
+      <IconTextCard text="Yüksek Performans">
         <svg viewBox="0 0 67 67" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M1.90611 28.04L15.8009 14.1453C16.5728 13.3734 17.4826 12.822 18.5302 12.4912C19.5778 12.1603 20.653 12.1052 21.7557 12.3258L26.0565 13.2355C23.079 16.7643 20.7357 19.9623 19.0264 22.8295C17.3171 25.6967 15.663 29.1704 14.064 33.2506L1.90611 28.04ZM18.861 35.5664C20.1292 31.5964 21.8517 27.8471 24.0285 24.3182C26.2076 20.7894 28.841 17.4811 31.9287 14.3934C36.7808 9.54129 42.3222 5.91543 48.5527 3.51583C54.7833 1.11843 60.6004 0.388408 66.0039 1.32575C66.9412 6.72926 66.2244 12.5463 63.8535 18.7769C61.4826 25.0075 57.871 30.5488 53.0189 35.4009C49.9863 38.4335 46.678 41.0669 43.0941 43.3011C39.5101 45.5331 35.7332 47.2831 31.7633 48.5513L18.861 35.5664ZM41.6881 25.6415C42.9562 26.9097 44.5144 27.5438 46.3627 27.5438C48.2087 27.5438 49.7658 26.9097 51.0339 25.6415C52.3021 24.3734 52.9362 22.8152 52.9362 20.967C52.9362 19.1209 52.3021 17.5638 51.0339 16.2957C49.7658 15.0275 48.2087 14.3934 46.3627 14.3934C44.5144 14.3934 42.9562 15.0275 41.6881 16.2957C40.4199 17.5638 39.7858 19.1209 39.7858 20.967C39.7858 22.8152 40.4199 24.3734 41.6881 25.6415ZM39.3723 65.4235L34.079 53.2656C38.1592 51.6666 41.6473 50.0125 44.5431 48.3032C47.4367 46.5939 50.648 44.2506 54.1768 41.2731L55.0039 45.5739C55.2244 46.6766 55.1693 47.7662 54.8385 48.8424C54.5076 49.9165 53.9562 50.8395 53.1843 51.6115L39.3723 65.4235ZM7.19935 46.1528C9.12917 44.223 11.4725 43.2437 14.2294 43.2151C16.9863 43.1886 19.3297 44.1403 21.2595 46.0701C23.1893 47.9999 24.1542 50.3433 24.1542 53.1002C24.1542 55.8571 23.1893 58.2004 21.2595 60.1303C19.8811 61.5087 17.5796 62.6942 14.3551 63.6867C11.1285 64.6791 6.67554 65.5613 0.996338 66.3333C1.76827 60.6541 2.65047 56.2155 3.64295 53.0175C4.63544 49.8195 5.8209 47.5313 7.19935 46.1528Z"
@@ -24,7 +24,7 @@
           />
         </svg>
       </IconTextCard>
-      <IconTextCard text="Opt-in Online">
+      <IconTextCard text="Opsiyonel Çevrimiçi">
         <svg viewBox="0 0 81 80" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M22.3046 66.2204C17.2871 66.2204 13.0007 64.4836 9.44537 61.0099C5.88788 57.5362 4.10913 53.2906 4.10913 48.273C4.10913 43.9723 5.40487 40.1402 7.99635 36.7768C10.5878 33.4134 13.9788 31.263 18.1693 30.3257C19.5477 25.253 22.3046 21.1452 26.44 18.0024C30.5753 14.8595 35.262 13.2881 40.5001 13.2881C46.9512 13.2881 52.4231 15.5344 56.9157 20.027C61.4106 24.5219 63.658 29.9949 63.658 36.446C67.4625 36.8871 70.6197 38.5269 73.1296 41.3654C75.6373 44.2061 76.8911 47.5287 76.8911 51.3332C76.8911 55.4685 75.4443 58.9841 72.5506 61.88C69.6548 64.7736 66.1392 66.2204 62.0039 66.2204H22.3046Z"
@@ -32,7 +32,7 @@
           />
         </svg>
       </IconTextCard>
-      <IconTextCard text="Open Source">
+      <IconTextCard text="Açık Kaynak">
         <svg viewBox="0 0 83 80" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M41.4999 72.7709C33.5257 70.8449 26.9432 66.4559 21.7524 59.6038C16.5594 52.754 13.9629 45.147 13.9629 36.7828V16.6426L41.4999 6.73767L69.037 16.6426V36.7828C69.037 45.147 66.4416 52.754 61.2509 59.6038C56.0579 66.4559 49.4742 70.8449 41.4999 72.7709ZM41.4999 65.8374C47.0647 64.1865 51.7116 60.9267 55.4406 56.0579C59.1695 51.1868 61.3496 45.7523 61.9806 39.7543H41.4999V13.7537L20.8472 21.1824V38.2685C20.8472 38.6537 20.9045 39.149 21.0193 39.7543H41.4999V65.8374Z"
@@ -40,7 +40,7 @@
           />
         </svg>
       </IconTextCard>
-      <IconTextCard text="Always Patched">
+      <IconTextCard text="Daima Yamalı">
         <svg viewBox="0 0 81 80" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M40.5001 72.8377C35.9236 72.8377 31.6227 71.9687 27.5976 70.2307C23.5724 68.4949 20.0711 66.1383 17.0936 63.1608C14.1161 60.1833 11.7595 56.682 10.0237 52.6568C8.28574 48.6317 7.41675 44.3309 7.41675 39.7544C7.41675 35.1778 8.28574 30.877 10.0237 26.8519C11.7595 22.8267 14.1161 19.3254 17.0936 16.3479C20.0711 13.3704 23.5724 11.0127 27.5976 9.27468C31.6227 7.53891 35.9236 6.67102 40.5001 6.67102C45.0766 6.67102 49.3774 7.53891 53.4026 9.27468C57.4277 11.0127 60.929 13.3704 63.9065 16.3479C66.884 19.3254 69.2407 22.8267 70.9764 26.8519C72.7144 30.877 73.5834 35.1778 73.5834 39.7544C73.5834 44.3309 72.7144 48.6317 70.9764 52.6568C69.2407 56.682 66.884 60.1833 63.9065 63.1608C60.929 66.1383 57.4277 68.4949 53.4026 70.2307C49.3774 71.9687 45.0766 72.8377 40.5001 72.8377ZM30.9059 64.4014L34.8759 55.3035C32.5601 54.4764 30.5618 53.1939 28.8812 51.4559C27.1984 49.7202 25.8883 47.6944 24.9509 45.3785L15.853 49.1831C17.1212 52.712 19.0786 55.7998 21.7253 58.4464C24.372 61.0931 27.4322 63.0781 30.9059 64.4014ZM24.9509 34.1302C25.8883 31.8144 27.1984 29.7886 28.8812 28.0528C30.5618 26.3148 32.5601 25.0323 34.8759 24.2052L31.0713 15.1073C27.5424 16.4306 24.4547 18.4156 21.808 21.0623C19.1613 23.7089 17.1763 26.7967 15.853 30.3256L24.9509 34.1302ZM40.5001 49.6794C43.257 49.6794 45.6004 48.7144 47.5303 46.7846C49.4601 44.8547 50.4251 42.5113 50.4251 39.7544C50.4251 36.9974 49.4601 34.654 47.5303 32.7241C45.6004 30.7943 43.257 29.8294 40.5001 29.8294C37.7431 29.8294 35.3997 30.7943 33.4699 32.7241C31.54 34.654 30.5751 36.9974 30.5751 39.7544C30.5751 42.5113 31.54 44.8547 33.4699 46.7846C35.3997 48.7144 37.7431 49.6794 40.5001 49.6794ZM50.0942 64.4014C53.568 63.0781 56.615 61.1074 59.2352 58.4894C61.8532 55.8692 63.8238 52.8223 65.1472 49.3485L56.0492 45.3785C55.2222 47.6944 53.954 49.6926 52.2447 51.3732C50.5354 53.0561 48.5504 54.3662 46.2897 55.3035L50.0942 64.4014ZM56.0492 33.9648L65.1472 30.1602C63.8238 26.6864 61.8532 23.6395 59.2352 21.0193C56.615 18.4013 53.568 16.4306 50.0942 15.1073L46.2897 24.3706C48.5504 25.1977 50.5078 26.4515 52.162 28.1322C53.8161 29.815 55.1119 31.7592 56.0492 33.9648Z"
@@ -60,10 +60,10 @@
           </svg>
         </div>
         <div class="right">
-          <div class="title">High Performance</div>
+          <div class="title">Yüksek Performans</div>
           <div class="description">
-            Acord is based on OpenAsar which both greatly improves performance
-            and protects privacy.
+            Acord, hem performansı büyük ölçüde artıran hem de gizliliği koruyan
+            OpenAsar'ı temel alır.
           </div>
         </div>
       </div>
@@ -77,11 +77,12 @@
           </svg>
         </div>
         <div class="right">
-          <div class="title">Opt-in Online</div>
+          <div class="title">Opsiyonel Çevrimiçi</div>
           <div class="description">
-            Acord has opt-in online features that both improves your experience
-            and makes it more fun. They’re all opt-in so you don’t have to worry
-            about privacy.
+            Acord, hem deneyiminizi iyileştiren hem de çevrimiçi olarak tercih
+            edilen özelliklere sahiptir ve Discord'u daha eğlenceli hale
+            getirir. Hepsi isteğe bağlı, bu yüzden gizlilik hakkında
+            endişelenmenize gerek yok.
           </div>
         </div>
       </div>
@@ -95,11 +96,11 @@
           </svg>
         </div>
         <div class="right">
-          <div class="title">Open Source</div>
+          <div class="title">Açık Kaynak</div>
           <div class="description">
-            Anyone can contribute to Acord and write their own plugins, which
-            provides further security as we don’t depend on “security by
-            obscurity”
+            Herkes Acord'a katkıda bulunabilir ve kendi eklentilerini yazabilir,
+            Acord belirsizlik ve gizem yerine açık-kaynak'ın getirdiği güvene
+            inanır.
           </div>
         </div>
       </div>
@@ -113,16 +114,19 @@
           </svg>
         </div>
         <div class="right">
-          <div class="title">Always Patched</div>
+          <div class="title">Daima Yamalı</div>
           <div class="description">
-            Acord staff and contributors work 7/24 to ensure that Acord works
-            without problems and interruption.
+            Acord geliştiricileri ve katkıda bulunanlar, Acord'un sorunsuz ve
+            kesintisiz çalışmasını sağlamak için 7/24 çalışmaktadır.
           </div>
         </div>
       </div>
     </section>
   </div>
-  <div class="warning">Acord is not affiliated and/or endorsed by Discord.</div>
+  <div class="warning">
+    Acord, Discord'a bağlı değildir ve/veya Discord tarafından
+    desteklenmemektedir.
+  </div>
 </div>
 
 <style lang="scss">
@@ -181,7 +185,7 @@
 
         .info {
           display: flex;
-          gap: 1rem;
+          gap: 1.5rem;
           align-items: center;
 
           .icon {
