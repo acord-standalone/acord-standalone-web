@@ -7,7 +7,7 @@
 
   const urlMap = {
     windows:
-      "https://github.com/acord-standalone/installer/releases/download/0.0.2/AcordStandaloneInstaller.exe",
+      "https://github.com/acord-standalone/installer/releases/download/0.0.3/AcordStandaloneInstaller.exe",
     macos:
       "https://github.com/acord-standalone/macos-installer/releases/download/v0.0.1/acord-macos-installer",
   };
