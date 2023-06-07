@@ -254,7 +254,7 @@
   // create LavaLamps
   let lava0 = new LavaLamp(screen.width, screen.height, 6, "#4900fa", "#c100f5");
   const run = function () {
-    requestAnimationFrame(run);
+    setTimeout(run, 1000 / 5);
     ctx.clearRect(0, 0, screen.width, screen.height);
     lava0.renderMetaballs();
   };
